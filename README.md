@@ -1,6 +1,6 @@
 <img src='https://i.imgur.com/Tfx6YSi.jpg'>
 
-# NFT Generator by @hoosnick
+# NFT Generator by [@hoosnick](https://github.com/hoosnick)
 ## Installation & Usage
 - `git clone https://github.com/hoosnick/nft-generator.git`
 - `pip(3) install -r requirements.txt`
