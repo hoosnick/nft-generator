@@ -62,7 +62,23 @@ class NFT_Generator:
         else:
             print('The end!')
 
+    def save_gif(self):
+        frames = []
+
+        for img in os.listdir(f'{self.folder_name}/'):
+            frames.append(Image.open(self.folder_name+'/'+img))
+
+        frames[0].save(
+            os.path.join('result.gif'),
+            format='GIF',
+            append_images=frames[1:],
+            save_all=True, duration=230, loop=0
+        )
+
 
 if __name__ == '__main__':
-    nft_mkr = NFT_Generator('new_folder_name')
+    nft_mkr = NFT_Generator(folder_name='new_folder_name')
+    # generate and save ntf
     nft_mkr.generate()
+    # create gif from nfts
+    nft_mkr.save_gif()
