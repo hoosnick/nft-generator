@@ -29,3 +29,7 @@ nft-generator/
 │  │  ├─ mouth-line.jpg
 │  │  ├─ mouth-smile.jpg
 ```
+## Result gif
+<img src='result.gif'>
+
+***
