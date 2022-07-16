@@ -26,8 +26,8 @@ nft-generator/
 │  │  ├─ head-red.png
 │  ├─ mouth
 │  │  ├─ mouth-chain.png
-│  │  ├─ mouth-line.jpg
-│  │  ├─ mouth-smile.jpg
+│  │  ├─ mouth-line.png
+│  │  ├─ mouth-smile.png
 ```
 ## Result gif
 <img src='result.gif'>
